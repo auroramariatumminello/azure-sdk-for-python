@@ -2400,7 +2400,7 @@ class AuthoringClientOperationsMixin(AuthoringClientMixinABC):  # pylint: disabl
                               Source.
                             "refresh": bool,  # Optional. Boolean flag used to refresh
                               data from the Source.
-                            "source": "str"  # Optional. Unique source identifier. Name
+                            "source": "str"  # Required. Unique source identifier. Name
                               of the file if it's a 'file' source; otherwise, the complete URL if it's
                               a 'url' source.
                         }
